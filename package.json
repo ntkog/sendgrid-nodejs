@@ -1,23 +1,15 @@
 {
-  "author": "SendGrid <info@sendgrid.com> (sendgrid.com)",
-  "contributors": [
-    "Kyle Partridge <kyle.partridge@sendgrid.com>",
-    "David Tomberlin <david.tomberlin@sendgrid.com>",
-    "Swift <swift@sendgrid.com>",
-    "Brandon West <brandon.west@sendgrid.com>",
-    "Scott Motte <scott.motte@sendgrid.com>",
-    "Robert Acosta <robert.acosta@sendgrid.com>"
-  ],
-  "name": "sendgrid",
-  "description": "Official SendGrid NodeJS library.",
-  "version": "2.0.0",
-  "homepage": "http://sendgrid.com",
+  "author": "Jorge Barrachina <nusquema@gmail.com>",
+  "contributors": [],
+  "name": "sendgrid-extended",
+  "description": "Fork from SendGrid NodeJS library.Adds Marketing Email API",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sendgrid/sendgrid-nodejs.git"
+    "url": "git://github.com/ntkog/sendgrid-nodejs.git"
   },
   "engines": {
-    "node": ">= 0.4.7"
+    "node": ">= 0.12"
   },
   "dependencies": {
     "mime": "^1.2.9",
@@ -31,10 +23,6 @@
     "chai": ">= 0.1.6",
     "nock": "^0.16.0",
     "sinon": "^1.6.0"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --grep '#skip' --invert",
-    "skipped": "./node_modules/.bin/mocha --grep '#skip'"
   },
   "license": "MIT",
   "optionalDependencies": {}
